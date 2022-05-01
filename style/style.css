@@ -4,6 +4,14 @@ body {
 font-family: 'Montserrat', sans-serif;
 } 
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .visually__hidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -58,4 +66,108 @@ font-family: 'Montserrat', sans-serif;
 .select__group{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.select__icon {
+  padding-top: 14px;
+  padding-left: 14px;
+  width: 16px;
+  height: 16px;
+}
+
+.hero__advertisment{
+  position: absolute;
+  padding-bottom: 128px;
+  top: 384px;
+  left: 63px;
+  max-width: 741px;
+  max-height: 537px;
+  background-color: #fff;
+  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+}
+
+.hero__advertisment__title{
+  padding-top: 96px;
+  padding-left: 64px;
+font-family: 'Merriweather';
+font-weight: 700;
+font-size: 39px;
+line-height: 1.25;
+color: #000000;
+}
+
+.hero__advertisment__title span {
+  color: #F78065;
+}
+
+.hero__advertisment__text{
+  padding-top: 29px;
+  padding-left: 64px;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1,2;
+   color: #000000;
+   opacity: 0.6;
+}
+
+.hero__advertisment__button{
+  display: flex;
+  justify-content: center;
+ margin-top: 29px;
+  margin-left: 62px;
+  margin-bottom: 75px;
+  padding: 21px 77px;
+  background-color: #F78065;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1,2;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+.globe__icon{
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.features{
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-color: #fff;
+}
+
+.features__list{
+  padding-top: 369px;
+  padding-left: 119px;
+}
+
+.features__item{
+  max-width: 386px;
+}
+
+.features__title{
+  padding-top: 84px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1,25;
+  color: #000000;
+}
+.features__decription{
+  padding-top: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,25;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.features__call{
+  padding-top: 14px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F78065;
 }
