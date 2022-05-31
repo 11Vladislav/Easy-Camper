@@ -315,6 +315,7 @@ color: #000000;
 
 .advantages__list{
   display: flex;
+  flex-grow: 1;
   margin-left: 100px;
 }
 
@@ -348,3 +349,91 @@ color: #000000;
   opacity: 0.5;
 }
 
+.footer{
+  padding-top: 96px;
+  background: #F7F7F7;
+}
+
+.footer__wrap{
+  display: flex;
+}
+
+.footer__heading{
+  margin-left: 100px;
+  max-width: 304px;
+}
+
+.footer__heading h3{
+  padding-bottom: 16px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1,25;
+}
+
+.footer__heading h2{
+  padding-bottom: 85px;
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1,25;
+}
+
+.footer__list{
+  display: flex;
+  margin-left: 100px;
+}
+
+.footer__item{
+  display: flex;
+  margin-left: 100px;
+  flex-direction: column;
+}
+
+
+.footer__item--title{
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.27;
+}
+
+.footer__link{
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #000000;
+}
+
+.footer__nav{
+  display: flex;
+  align-items: baseline;
+  border-top: 1px solid #000000;
+  padding-bottom: 63px;
+}
+
+.rights p{
+  font-size: 14px;
+  line-height: 1.21;
+}
+
+.rights{
+  padding-top: 28px;
+  margin-left: 100px;
+}
+
+.nav__list{
+  display: flex;
+  margin-left: auto;
+}
+
+.nav__link{
+  padding-top: 28px;
+  padding-right: 48px;
+  padding-bottom: 63px;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: right;
+  color: #000000;
+}
