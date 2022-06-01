@@ -159,9 +159,13 @@ color: #000000;
   margin-left: 119px;
 }
 
-.features__item:not(:last-child){
+.features__item{
   max-width: 386px;
   margin-right: 41px;
+}
+
+.features__item:last-child{
+  margin-right: 0;
 }
 
 .features__title{
